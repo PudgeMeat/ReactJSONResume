@@ -9,5 +9,7 @@ https://www.freshdesignweb.com/vcard-resume-templates/
 
 Run:
 npm install
+
 npm start
+
 http://localhost:3000
