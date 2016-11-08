@@ -8,6 +8,7 @@ Resume style:
 https://www.freshdesignweb.com/vcard-resume-templates/
 
 Run:
+
 npm install
 
 npm start
