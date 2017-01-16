@@ -7,12 +7,12 @@ export default class Profile extends React.Component {
     return(
         <div>
             <div className="profileImg">
-              <img className="img-thumbnail" src={profileObj.picture} width="250" alt="Profile"/>
+              <img className="img-thumbnail" src={profileObj.picture} width="250px" alt="Profile"/>
             </div>
-            <h2 className="text-center">{profileObj.name}</h2>
-            <h3 className="text-center">{profileObj.label}</h3>
+            <h3 className="profileName text-center">{profileObj.name}</h3>
+            <h4 className="profileLabel text-center">{profileObj.label}</h4>
             <div className="divider"></div>
-            <ul className="list-unstyled contact-links text-center">
+            <ul className="profileContact list-unstyled contact-links text-center">
                 <li><i className="fa fa-lg fa-envelope"></i><a href="mailto:{profileObj.email}">{profileObj.email}</a></li>
                 <li><i className="fa fa-lg fa-phone"></i><a href="mailto:{profileObj.phone}">{profileObj.phone}</a></li>
             </ul>

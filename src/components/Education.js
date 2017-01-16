@@ -13,7 +13,7 @@ export default class Education extends React.Component {
               <img src={"images/" + item.code + ".png"} alt="EducationLogo"/>
             </div>
             <div className="col-md-8">
-              <h4>{item.studyType} , {item.area}</h4>
+              <h3>{item.studyType} , {item.area}</h3>
   				    <h2>{item.institution}</h2>
   				    <p>Studied: {startdate} - {enddate}</p>
             </div>

@@ -35,17 +35,21 @@ h5{
 }
 
 
-#header{
+.topbar{
   background-color:#222222;
-  position:fixed;
-  padding: 20px;
-  height: 60px;
-  z-index: 100;
-  width: 85%;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  border:1px solid #000
 }
 
-#header #logo{
-  float:left;
+#header{
+  margin: 0 auto;
+  max-width: 1170px;
+  padding: 10px 0;
+  width: 100%;
+  position: relative;
 }
 
 #header #main-menu{
@@ -61,22 +65,13 @@ h5{
 }
 
 #scrolldiv{
+  max-width: 400px;
   position: fixed;
   top: 80px;
+  z-index: 999;
 }
 
-aside, main {
-  padding: 10px!important;
-}
-main {
-  padding-left: 0!important;
 
-}
-aside .inner, main .inner {
-  padding: 20px;
-}
-
-}
 
 #about, #interests, #skills, #education{
   padding-bottom: 10px;
@@ -113,3 +108,96 @@ aside .inner, main .inner {
 .interests-list li {
   font: bold 24px/50px 'Bree Serif', Georgia, serif;
 }
+
+.interestImage{
+  margin-top: 40%;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+  h1{
+    color:red;
+  }
+ 
+}
+
+
+@media screen and (max-width: 992px) {
+  h1{
+    color:purple;
+  }
+
+  #scrolldiv{
+  max-width: 220px;
+}
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+  h1{
+    color:green;
+    font: 400 30px/40px 'Bree Serif', Georgia, serif; 
+  }
+  h3{
+    font: italic 20px/25px 'Bree Serif', Georgia, serif; 
+    color:#6a6969;
+    text-align: justify;
+  }
+  
+  #scrolldiv{
+    visibility: hidden;
+
+  }
+
+  #header #main-menu li{
+    float:left;
+    list-style:none;
+    margin-left:20px;
+    font: 400 15px/20px 'Bree Serif', Georgia, serif;
+
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1{
+    color:orange;
+    font: 400 22px/25px 'Bree Serif', Georgia, serif; 
+  }
+  h3{
+    font: italic 15px/20px 'Bree Serif', Georgia, serif; 
+    color:#6a6969;
+    text-align: justify;
+  }
+
+  h2{
+    font: italic 22px/25px 'Bree Serif', Georgia, serif; 
+    color:#6a6969;
+    text-align: justify;
+  }
+
+  h5{
+    font: bold 10px/14px 'Bree Serif', Georgia, serif; 
+    color:#6a6969;
+  }
+
+
+  #scrolldiv{
+    visibility: hidden;
+
+  }
+
+  #header #main-menu li{
+    float:left;
+    list-style:none;
+    margin-left:10px;
+    font: 400 10px/20px 'Bree Serif', Georgia, serif;
+
+  }
+}
+

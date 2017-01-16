@@ -33,18 +33,18 @@ export default class App extends React.Component {
       // console.log(profileData)
       return (
               <div className="container">
-                <div className="row">
+                <div className="topbar col-lg-12 col-md-12 col-sm-12 col-xs-12">
                   <Navigation />
                 </div>
                 <div>
-                  <aside className="col-md-4">
+                  <aside className="col-md-4 col-sm-4 col-xs-12">
                     <div className="inner" >
                       <div id='scrolldiv'>
                         <Profile profileData={profileData} />
-                      </div>  
+                      </div> 
                     </div>
                   </aside>
-                  <main className="col-md-8">
+                  <main className="col-md-8 col-sm-8 col-xs-12">
                     <div className="inner"> 
                       <About aboutData={aboutData} />                    
                       <Education educationData={educationData} />
