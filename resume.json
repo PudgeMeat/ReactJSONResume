@@ -1,0 +1,104 @@
+{
+  "basics": {
+    "name": "XuXiao Ma",
+    "label": "Media Technology Programmer",
+    "picture": "./images/profilePhoto.jpg",
+    "email": "gaara526526@gmail.com",
+    "phone": "+46(0)760790620",
+    "website": "https://se.linkedin.com/in/xuxiao-ma-b03350122",
+    "summary": "A Self-motivated, hardworking, and energetic programmer who has solid programming skills based on a variety of programming languages; A good learner, able to learn new technologies in short time, and enjoy working both in teams and independently. Graduate from KTH with the knowledge specifically for media technology domain, always have creative ideas in mind, never stop thinking and never afraid of challenges. Currently seeking for an opportunity which works closely to customers, provide them the best services. Expecting to develop abilities and gain knowledge in a fast-paced environment.",
+    "location": {
+    },
+    "profiles": [
+      {
+        "network": "Linkedin",
+        "username": "XuXiao Ma",
+        "url": "https://se.linkedin.com/in/xuxiao-ma-b03350122"
+      }
+    ]
+  },
+  "work": [],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Kristianstad University",
+      "area": "Computer science and software development",
+      "studyType": "Bachelor Degree",
+      "startDate": "2011-08-01",
+      "endDate": "2014-09-01",
+      "gpa": "",
+      "courses": [],
+      "code": "hkr"
+    },
+    {
+      "institution": "Royal Institute of Technology",
+      "area": "Media Technology",
+      "studyType": "Master Degree",
+      "startDate": "2014-08-01",
+      "endDate": "2016-09-01",
+      "gpa": "",
+      "courses": [],
+      "code": "kth"
+    }
+  ],
+  "awards": [],
+  "publications": [
+  ],
+  "skills": [
+    {
+      "name": "Front End Development",
+      "level": "",
+      "keywords": [
+        "Java",
+        "C++",
+        "C#",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React.js",
+        "Bootstrap",
+        "Node.js",
+        "PHP",
+        "Databases",
+        "UX/UI",
+        "HCI",
+        "Signal Processing",
+        "Speech Technology",
+        "Photoshop",
+        "Indesign",
+        "Skeching",
+        "Git",
+        "Responsive"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "hearthstone",
+      "description":"Game"
+    },
+    {
+      "name": "piano",
+      "description":"Music"
+    },
+    {
+      "name": "cooking",
+      "description":"Food"
+    },
+    {
+      "name": "sketching",
+      "description":"Art"
+    },
+    {
+      "name": "pingpong",
+      "description":"Sport"
+    }
+  ],
+  "references": []
+}
